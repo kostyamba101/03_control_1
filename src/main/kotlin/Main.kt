@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     val seconds = 1260
     val result = agoToText(seconds)
-    println("Был в сети $result")
+    println("Был(а) в сети $result")
 
 }
 fun agoToText(second: Int): String {
